@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/**
+ * author 张鑫
+ * create time 2017-08-15
+ */
+html,body,ul,li,ol,p,span,div,header,main,h1,h2,h3,h4,h5,h6,em,i,small,section,aside,s,menu,code,label,eq,textarea,input,table,tr,td,th,thead,tbody,option,audio,canvas,svg,select,button,head,footer,applet,object,iframe,blockquote,pre,a,abbr,acronym,address,big,cite,del,dfn,font,img,ins,kbd,q,samp,strike,strong,msqrt,sub,sup,tt,var,b,u,center,dl,dt,dd,fieldset,form,legend,caption,card,circle,article{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box; /* Firefox */
+  -webkit-box-sizing:border-box; /* Safari */
+}
+html,body{height:100%;}
+html *{
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body{
+  font-family: PingFang SC,Lantinghei SC,Helvetica Neue,Helvetica,Arial,Microsoft YaHei,微软雅黑,STHeitiSC-Light,simsun,宋体,WenQuanYi Zen Hei,WenQuanYi Micro Hei,'sans-serif';
+  font-size: 14px;
+  color: #333333;
+}
+ul,ol,li{list-style: none;}
+a{
+  text-decoration: none;
+}
+fieldset, img { border: 0; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style: normal; }
+em,i{font-style:normal;}
+:focus{outline:0 none;}
+:after,:before{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+img {
+  vertical-align: middle;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {color: #b8b8b8;}
+input:-moz-placeholder, textarea:-moz-placeholder {color:#b8b8b8;}
+input::-moz-placeholder, textarea::-moz-placeholder {color:#b8b8b8;}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {color:#b8b8b8;}
