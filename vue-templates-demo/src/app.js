@@ -6,6 +6,8 @@ import { sync } from 'vuex-router-sync'
 import titleMixin from './util/title'
 import * as filters from './util/filters'
 import ElementUi from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css'
+import '../public/css/style.css'
 
 Vue.use(ElementUi)
 // mixin 处理标题

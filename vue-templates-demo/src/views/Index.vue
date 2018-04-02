@@ -21,7 +21,6 @@
 
     },
     beforeMount () {
-      this.loadItems()
     },
     methods: {
 

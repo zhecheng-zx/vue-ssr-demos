@@ -42,3 +42,42 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {color: #b
 input:-moz-placeholder, textarea:-moz-placeholder {color:#b8b8b8;}
 input::-moz-placeholder, textarea::-moz-placeholder {color:#b8b8b8;}
 input:-ms-input-placeholder, textarea:-ms-input-placeholder {color:#b8b8b8;}
+
+/**
+ * 布局 start
+ */
+.el-header, .el-footer {
+  background-color: #B3C0D1;
+  color: #333;
+  text-align: center;
+  line-height: 60px;
+}
+
+.el-aside {
+  background-color: #D3DCE6;
+  color: #333;
+  text-align: center;
+}
+
+.el-main {
+  background-color: #E9EEF3;
+  color: #333;
+  text-align: center;
+}
+/**
+ * 布局 end
+ */
+/**
+ * header start
+ */
+.el-header{
+  text-align: left;
+}
+.el-header .el-menu-demo{
+  float: right;
+}
+
+.el-menu-vertical-demo:not(.el-menu--collapse) {
+  width: 200px;
+  min-height: 400px;
+}
